@@ -1,0 +1,139 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>aspnet-ToDo.Web-5F37E755-5A8D-4033-B016-F92F1D08F5C8</UserSecretsId>
+    <CopyRefAssembliesToPublishDirectory>false</CopyRefAssembliesToPublishDirectory>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\.DS_Store" />
+    <None Include="wwwroot\css\.DS_Store" />
+    <None Include="wwwroot\css\bootstrap.min.css" />
+    <None Include="wwwroot\css\bootstrap.min.css.map" />
+    <None Include="wwwroot\css\bootstrap\bootstrap-reboot.css" />
+    <None Include="wwwroot\css\bootstrap\bootstrap.css" />
+    <None Include="wwwroot\css\owl.carousel.min.css" />
+    <None Include="wwwroot\css\style.css" />
+    <None Include="wwwroot\fonts\.DS_Store" />
+    <None Include="wwwroot\fonts\icomoon\demo-files\demo.css" />
+    <None Include="wwwroot\fonts\icomoon\demo-files\demo.js" />
+    <None Include="wwwroot\fonts\icomoon\demo.html" />
+    <None Include="wwwroot\fonts\icomoon\fonts\icomoon.eot" />
+    <None Include="wwwroot\fonts\icomoon\fonts\icomoon.svg" />
+    <None Include="wwwroot\fonts\icomoon\fonts\icomoon.ttf" />
+    <None Include="wwwroot\fonts\icomoon\fonts\icomoon.woff" />
+    <None Include="wwwroot\fonts\icomoon\Read Me.txt" />
+    <None Include="wwwroot\fonts\icomoon\style.css" />
+    <None Include="wwwroot\js\images\.DS_Store" />
+    <None Include="wwwroot\js\images\bg_1.jpg" />
+    <None Include="wwwroot\js\bootstrap.min.js" />
+    <None Include="wwwroot\js\jquery-3.3.1.min.js" />
+    <None Include="wwwroot\js\main.js" />
+    <None Include="wwwroot\js\owl.carousel.min.js" />
+    <None Include="wwwroot\js\popper.min.js" />
+    <None Include="wwwroot\scss\.DS_Store" />
+    <None Include="wwwroot\scss\bootstrap\bootstrap-grid.scss" />
+    <None Include="wwwroot\scss\bootstrap\bootstrap-reboot.scss" />
+    <None Include="wwwroot\scss\bootstrap\bootstrap.scss" />
+    <None Include="wwwroot\scss\bootstrap\mixins\_alert.scss" />
+    <None Include="wwwroot\scss\bootstrap\mixins\_background-variant.scss" />
+    <None Include="wwwroot\scss\bootstrap\mixins\_badge.scss" />
+    <None Include="wwwroot\scss\bootstrap\mixins\_border-radius.scss" />
+    <None Include="wwwroot\scss\bootstrap\mixins\_box-shadow.scss" />
+    <None Include="wwwroot\scss\bootstrap\mixins\_breakpoints.scss" />
+    <None Include="wwwroot\scss\bootstrap\mixins\_buttons.scss" />
+    <None Include="wwwroot\scss\bootstrap\mixins\_caret.scss" />
+    <None Include="wwwroot\scss\bootstrap\mixins\_clearfix.scss" />
+    <None Include="wwwroot\scss\bootstrap\mixins\_deprecate.scss" />
+    <None Include="wwwroot\scss\bootstrap\mixins\_float.scss" />
+    <None Include="wwwroot\scss\bootstrap\mixins\_forms.scss" />
+    <None Include="wwwroot\scss\bootstrap\mixins\_gradients.scss" />
+    <None Include="wwwroot\scss\bootstrap\mixins\_grid-framework.scss" />
+    <None Include="wwwroot\scss\bootstrap\mixins\_grid.scss" />
+    <None Include="wwwroot\scss\bootstrap\mixins\_hover.scss" />
+    <None Include="wwwroot\scss\bootstrap\mixins\_image.scss" />
+    <None Include="wwwroot\scss\bootstrap\mixins\_list-group.scss" />
+    <None Include="wwwroot\scss\bootstrap\mixins\_lists.scss" />
+    <None Include="wwwroot\scss\bootstrap\mixins\_nav-divider.scss" />
+    <None Include="wwwroot\scss\bootstrap\mixins\_pagination.scss" />
+    <None Include="wwwroot\scss\bootstrap\mixins\_reset-text.scss" />
+    <None Include="wwwroot\scss\bootstrap\mixins\_resize.scss" />
+    <None Include="wwwroot\scss\bootstrap\mixins\_screen-reader.scss" />
+    <None Include="wwwroot\scss\bootstrap\mixins\_size.scss" />
+    <None Include="wwwroot\scss\bootstrap\mixins\_table-row.scss" />
+    <None Include="wwwroot\scss\bootstrap\mixins\_text-emphasis.scss" />
+    <None Include="wwwroot\scss\bootstrap\mixins\_text-hide.scss" />
+    <None Include="wwwroot\scss\bootstrap\mixins\_text-truncate.scss" />
+    <None Include="wwwroot\scss\bootstrap\mixins\_transition.scss" />
+    <None Include="wwwroot\scss\bootstrap\mixins\_visibility.scss" />
+    <None Include="wwwroot\scss\bootstrap\utilities\_align.scss" />
+    <None Include="wwwroot\scss\bootstrap\utilities\_background.scss" />
+    <None Include="wwwroot\scss\bootstrap\utilities\_borders.scss" />
+    <None Include="wwwroot\scss\bootstrap\utilities\_clearfix.scss" />
+    <None Include="wwwroot\scss\bootstrap\utilities\_display.scss" />
+    <None Include="wwwroot\scss\bootstrap\utilities\_embed.scss" />
+    <None Include="wwwroot\scss\bootstrap\utilities\_flex.scss" />
+    <None Include="wwwroot\scss\bootstrap\utilities\_float.scss" />
+    <None Include="wwwroot\scss\bootstrap\utilities\_overflow.scss" />
+    <None Include="wwwroot\scss\bootstrap\utilities\_position.scss" />
+    <None Include="wwwroot\scss\bootstrap\utilities\_screenreaders.scss" />
+    <None Include="wwwroot\scss\bootstrap\utilities\_shadows.scss" />
+    <None Include="wwwroot\scss\bootstrap\utilities\_sizing.scss" />
+    <None Include="wwwroot\scss\bootstrap\utilities\_spacing.scss" />
+    <None Include="wwwroot\scss\bootstrap\utilities\_stretched-link.scss" />
+    <None Include="wwwroot\scss\bootstrap\utilities\_text.scss" />
+    <None Include="wwwroot\scss\bootstrap\utilities\_visibility.scss" />
+    <None Include="wwwroot\scss\bootstrap\vendor\_rfs.scss" />
+    <None Include="wwwroot\scss\bootstrap\_alert.scss" />
+    <None Include="wwwroot\scss\bootstrap\_badge.scss" />
+    <None Include="wwwroot\scss\bootstrap\_breadcrumb.scss" />
+    <None Include="wwwroot\scss\bootstrap\_button-group.scss" />
+    <None Include="wwwroot\scss\bootstrap\_buttons.scss" />
+    <None Include="wwwroot\scss\bootstrap\_card.scss" />
+    <None Include="wwwroot\scss\bootstrap\_carousel.scss" />
+    <None Include="wwwroot\scss\bootstrap\_close.scss" />
+    <None Include="wwwroot\scss\bootstrap\_code.scss" />
+    <None Include="wwwroot\scss\bootstrap\_custom-forms.scss" />
+    <None Include="wwwroot\scss\bootstrap\_dropdown.scss" />
+    <None Include="wwwroot\scss\bootstrap\_forms.scss" />
+    <None Include="wwwroot\scss\bootstrap\_functions.scss" />
+    <None Include="wwwroot\scss\bootstrap\_grid.scss" />
+    <None Include="wwwroot\scss\bootstrap\_images.scss" />
+    <None Include="wwwroot\scss\bootstrap\_input-group.scss" />
+    <None Include="wwwroot\scss\bootstrap\_jumbotron.scss" />
+    <None Include="wwwroot\scss\bootstrap\_list-group.scss" />
+    <None Include="wwwroot\scss\bootstrap\_media.scss" />
+    <None Include="wwwroot\scss\bootstrap\_mixins.scss" />
+    <None Include="wwwroot\scss\bootstrap\_modal.scss" />
+    <None Include="wwwroot\scss\bootstrap\_nav.scss" />
+    <None Include="wwwroot\scss\bootstrap\_navbar.scss" />
+    <None Include="wwwroot\scss\bootstrap\_pagination.scss" />
+    <None Include="wwwroot\scss\bootstrap\_popover.scss" />
+    <None Include="wwwroot\scss\bootstrap\_print.scss" />
+    <None Include="wwwroot\scss\bootstrap\_progress.scss" />
+    <None Include="wwwroot\scss\bootstrap\_reboot.scss" />
+    <None Include="wwwroot\scss\bootstrap\_root.scss" />
+    <None Include="wwwroot\scss\bootstrap\_spinners.scss" />
+    <None Include="wwwroot\scss\bootstrap\_tables.scss" />
+    <None Include="wwwroot\scss\bootstrap\_toasts.scss" />
+    <None Include="wwwroot\scss\bootstrap\_tooltip.scss" />
+    <None Include="wwwroot\scss\bootstrap\_transitions.scss" />
+    <None Include="wwwroot\scss\bootstrap\_type.scss" />
+    <None Include="wwwroot\scss\bootstrap\_utilities.scss" />
+    <None Include="wwwroot\scss\bootstrap\_variables.scss" />
+    <None Include="wwwroot\scss\style.scss" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="5.0.6" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="5.0.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.6" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ToDo.Application\ToDo.Application.csproj" />
+  </ItemGroup>
+
+</Project>
